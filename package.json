@@ -1,0 +1,13 @@
+{
+  "name": "template-postcard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Postcard: a Launch Pad template for a destination travel brand. One config file, one static page.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && node scripts/serve.mjs",
+    "check:mobile": "node scripts/check-mobile.mjs"
+  }
+}
